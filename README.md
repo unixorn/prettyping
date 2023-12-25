@@ -19,11 +19,11 @@ screenshots, videos at: <http://denilsonsa.github.io/prettyping/>
 ## Requirements
 
 * `bash` (tested on 4.20, should work on versions as old as 2008)
-* `awk` (either `gawk`, `mawk`, `nawk` or `busybox awk`; should work on `gawk`
-   versions as old as 2008; should probably work on any other awk
-   implementation)
+* `awk` (either [gawk][], [mawk][], [nawk][] or [busybox awk][]; should work on
+  `gawk` versions as old as 2008; should probably work on any other awk
+  implementation)
 * `ping` (from `iputils`, or any other version that prints essentially the same
-   output, like Mac OS X ping or [oping][])
+  output, like Mac OS X ping or [oping][])
 * Optional dependency on `stty` or `tput` to auto-detect the terminal size.
 
 ## Installation
@@ -60,5 +60,9 @@ If you're using [Antigen](https://github.com/zsh-users/antigen):
 1. Add `antigen bundle unixorn/prettyping` to your `.zshrc` where you've listed your other plugins.
 2. Close and reopen your Terminal/iTerm window to **refresh context** and use the plugin. Alternatively, you can run `antigen bundle unixorn/prettyping` in a running shell to have `antigen` load the new plugin.
 
+[gawk]: https://www.gnu.org/software/gawk/
+[mawk]: https://invisible-island.net/mawk/
+[nawk]: https://github.com/onetrueawk/awk
+[busybox awk]: https://www.busybox.net/downloads/BusyBox.html#awk
 [oping]: http://verplant.org/liboping/
 [prettyping]: https://raw.githubusercontent.com/denilsonsa/prettyping/master/prettyping
